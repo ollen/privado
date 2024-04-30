@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="br-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | MS Empresas</title>
+    <link rel="stylesheet" href="css/pagina_inicial.css">
+    <script src="js/pagina_inicial.js" defer></script>
+    <link rel="icon" href="img/favicon.png">
+
+</head>
+<body onload="iniciaSlider()">
+    <header>
+        <fieldset onclick="ir_para_pg_inicial()">
+            <legend></legend>
+            <h3>MS<br>Empresas</h3>
+        </fieldset>   
+        <nav class="menu">
+            <a href="">Blog  |</a>
+            <a href="">Comunidade  |</a>
+            <a href="">Shop </a>
+        </nav>
+        <nav class="nav-bt-entrar">
+            <button onclick="ir_logar()"  id="icon">Entrar</button>
+        </nav>
+
+        <nav class="nav-bt">
+            <button onclick="menushow()" id="icon">Menu</button>
+        </nav>
+
+        <nav class="menu-mobile">
+            <br>
+            <a href="">Blog</a><br><br><hr><br>
+            <a href="">Comunidade</a><br><br><hr><br>
+            <a href="">Shop</a><br><br><hr><br>
+            <a href="logar.html" class="bt_lo">Entrar Com conta</a><br><br>
+        </nav>
+    </header>
+    <main>
+        <p class="sub">Home | MS Empresas</p>
+        <br>
+        <img class="fundo" src="img/fundos/go.jpg">
+        <p class="titulo_fundo" id="dvSlider"></p>
+        <br><br><br>
+        <div class="destaque">
+            <h2>O que é a MS Empresas?</h2>
+            <br>
+            <p>A MS é uma empresa que cuida dos dados da sua  empresa bem como permitindo assim poder disfutar de um excelente serviços de gestão.</p>
+        </div>
+        <br><br>
+        <div class="destaque">
+            <h2>Domínios nas Áreas:</h2>
+            <br>
+                <li>Tecnologicas</li>
+                <li>Gestão e desenvolvimento</li>
+                <li>DataBases Msql e SQlite</li>
+                <li>Cursos</li>
+                <li>Treinamento</li><br>
+        </div>
+        <br><br>
+        <div class="destaque">
+            <h2>Sugestões Para Adesão:</h2>
+            <br>
+                <li>Recepção</li>
+                <li>Supermecados</li>
+                <li>Administração</li>
+                <li>Recursos Humanos</li>
+            </div>
+    </main>
+    <br>
+    <footer>
+            <fieldset>     
+                <p>Siga-nos</p>
+                <picture>
+                <img onclick="ir_y()" src="img/152810.png">
+                <img onclick="ir_t()" src="img/4138151.png">
+                <img onclick="ir_f()" src="img/4701482.png">
+                </picture>
+                <a href="mailto:sebastiaocollen@gmail.com">sebastiaocollen@gmail.com</a>
+            </fieldset>
+    </footer>
+</body>
+</html>

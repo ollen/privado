@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+fieldset{
+    border: none;
+    box-shadow: 1px 1px 10px 1px gray;
+    padding: 4.5px;
+    margin-top: 20px;
+    margin: auto;
+    width: 210px;
+}
+fieldset img{
+    margin: auto;
+    margin-left: 48px;
+    cursor: pointer;
+}
+fieldset input{
+    font-size: 14px;
+    height: 20px;
+    width: 205px;
+    margin-left: 2px;
+    padding: 2px;
+    outline: 0;
+    text-indent: 3px;
+}
+fieldset button{
+    padding: 8px;
+    background-color: mediumslateblue;
+    color: white;
+    border: none;
+    margin-left: 68px;
+    cursor: pointer;
+}
+fieldset a{
+    margin-left: 42px;
+    text-decoration: none;
+    color: mediumslateblue;
+}
